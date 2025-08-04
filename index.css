@@ -1,0 +1,82 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header {
+  text-align: center;
+  border-bottom: 2px solid #000;
+  padding-bottom: 10px;
+}
+header h1 {
+  color: #1a73e8;
+  margin-bottom: 5px;
+}
+header p,
+header a {
+  margin: 5px 0;
+  color: #333;
+  text-decoration: none;
+}
+header a:hover {
+  text-decoration: underline;
+  color: #0073b1;
+}
+section {
+  margin-top: 30px;
+}
+section h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  color: #1a73e8;
+}
+ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+ul li {
+  margin-bottom: 8px;
+}
+.experience p {
+  font-weight: bold;
+  margin-top: 15px;
+}
+.experience p span.role {
+  display: block;
+}
+.experience p span.dates {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  color: #666;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+ header h1 {
+    font-size: 22px;
+  }
+ section h2 {
+    font-size: 18px;
+  }
+ ul li {
+    font-size: 14px;
+  }
+ header p, header a {
+    font-size: 14px;
+  }
+  .experience p span.role,
+  .experience p span.dates {
+    display: block;
+  }
+}
